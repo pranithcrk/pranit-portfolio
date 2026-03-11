@@ -1,8 +1,8 @@
 const photos = [
-  { src: "/photos/photo1.jpg", alt: "Photo 1" },
-  { src: "/photos/photo2.jpg", alt: "Photo 2" },
-  { src: "/photos/photo3.jpg", alt: "Photo 3" },
-  { src: "/photos/photo4.jpg", alt: "Photo 4" },
+  { src: "/photos/A4108BE5-BCB8-4688-8B10-0D1DAA726555.JPG", alt: "" },
+  { src: "/photos/IMG_0169.JPG", alt: "" },
+  { src: "/photos/IMG_5414.JPG", alt: "" },
+  { src: "/photos/IMG_6335.JPG", alt: "" },
 ];
 
 export default function Photos() {
@@ -16,9 +16,14 @@ export default function Photos() {
         {photos.map((photo) => (
           <div
             key={photo.src}
-            className="break-inside-avoid rounded-lg overflow-hidden bg-[var(--color-bg-card)] border border-[var(--color-border)] aspect-[4/3] flex items-center justify-center text-[var(--color-text-muted)] text-[11px] hover:border-[var(--color-accent-dim)] transition-colors"
+            className="break-inside-avoid rounded-lg overflow-hidden border border-[var(--color-border)] hover:border-[var(--color-accent-dim)] transition-colors"
           >
-            Add to public{photo.src}
+            <img
+              src={photo.src}
+              alt={photo.alt}
+              className="w-full h-auto block"
+              loading="lazy"
+            />
           </div>
         ))}
       </div>
