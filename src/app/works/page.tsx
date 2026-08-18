@@ -14,6 +14,12 @@ const projects = [
     github: "https://github.com/pranithcrk/fraud-copilot",
   },
   {
+    title: "E-commerce Product Analytics",
+    description:
+      "Analyzed 20M+ e-commerce events across a 5-stage conversion funnel using SQL window functions and CTEs. Trained an XGBoost conversion propensity model (AUC-ROC 0.87) with SHAP explainability. Built an interactive Streamlit dashboard with funnel visualizations, drop-off heatmaps, A/B test calculator, and cohort retention curves.",
+    tags: ["Python", "SQL", "XGBoost", "Streamlit", "SHAP"],
+  },
+  {
     title: "Fraud Early Warning System",
     description:
       "Risk scoring pipeline to detect friendly fraud in subscription payments by profiling dispute behavior. XGBoost classifier with feature engineering on transaction history, served via FastAPI endpoint with analyst review dashboard and risk-tier badges. Reduced simulated chargeback exposure by 23%.",

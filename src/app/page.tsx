@@ -5,10 +5,10 @@ export default function Home() {
         <p className="text-[var(--color-text-muted)]">Currently —</p>
         <div>
           <p>
-            <span className="text-[var(--color-white)]">Risk Engineer</span>
-            <span className="text-[var(--color-text-muted)]"> — Goldman Sachs, Risk Analytics & Reporting</span>
+            <span className="text-[var(--color-white)]">Quantitative Strategist</span>
+            <span className="text-[var(--color-text-muted)]"> — Goldman Sachs, Core Strats (Liquidity Risk)</span>
           </p>
-          <p className="text-[var(--color-text-muted)] text-[12px]">Writing Python and SQL so that $750B+ in daily transactions doesn&apos;t quietly misbehave. Built forecasting models that improved funding accuracy by 25% — basically teaching math to predict when money gets weird. Also the person Treasury blames when their Tableau dashboards break.</p>
+          <p className="text-[var(--color-text-muted)] text-[12px]">Running statistical experiments on the firm&apos;s $500bn+ debt portfolio so nobody&apos;s funding strategy is based on vibes. Built forecasting models that improved accuracy by 25% — turns out math beats gut feelings. Also the person Treasury calls when their dashboards need to tell a better story.</p>
         </div>
       </div>
 
@@ -18,7 +18,7 @@ export default function Home() {
           <div>
             <p>
               <span className="text-[var(--color-white)]">Summer Analyst</span>
-              <span className="text-[var(--color-text-muted)]"> — Goldman Sachs, Risk Analytics</span>
+              <span className="text-[var(--color-text-muted)]"> — Goldman Sachs, Core Strats (Liquidity Risk)</span>
             </p>
             <p className="text-[var(--color-text-muted)] text-[12px]">Built a regulatory lookup tool so 300+ people could stop Ctrl+F-ing through compliance docs</p>
           </div>
