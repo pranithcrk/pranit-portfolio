@@ -61,7 +61,7 @@ export default function Header() {
           Pranit Patil
         </h1>
         <p className="text-[13px] text-[var(--color-text-muted)] mt-1">
-          Analytics Engineer &middot;{" "}
+          Quantitative Engineering &amp; Analytics &middot;{" "}
           <span
             className="inline-block transition-all duration-200"
             style={{ opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(-3px)" }}
