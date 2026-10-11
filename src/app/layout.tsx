@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: "Pranit Patil",
@@ -28,6 +29,7 @@ export default function RootLayout({
             &copy; {new Date().getFullYear()}
           </footer>
         </div>
+        <Analytics />
       </body>
     </html>
   );
